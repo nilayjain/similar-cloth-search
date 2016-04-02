@@ -1,0 +1,29 @@
+install following libraries: matplotlib, numpy, PIL, opencv, scikit-learn.
+download haar-cascades for face recognition
+
+Link to papers: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/rubner-jcviu-00.pdf
+
+http://vis.uky.edu/~cheung/courses/ee639_fall04/readings/ccv.pdf 
+
+to make index execute:
+
+	python index.py --index file-name.csv --dataset dresses/
+
+Here file-name.csv is name of index file created and dresses is the directory where images are.
+
+Making index may take upto 90 minutes for 2000 images.
+
+to perform the search execute:
+
+	python search.py --index file-name.csv --query image.jpg --result-path dresses/
+
+here image.jpg is query image result-path is directory where images are and file-name.csv is the index file we created previously.
+
+colordescriptor class helps to extract features and index in dataset.
+searcher class helps in performing search.
+index.py makes index
+search.py performs search and retrieves results.
+
+code is documented.
+
+Thanks.

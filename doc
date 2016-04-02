@@ -1,0 +1,15 @@
+extracting surf and sift features (dense feature extraction) for searching cloths is overkill.
+
+the first implementation was with simple color histograms.
+
+in the folder newtry: the latest implementation was using earth movers distance.
+
+other things to look at:
+
+hog descriptors 
+efficient graph based image segmentation (paper)
+pyimagesearch.com is a good vision website.
+
+Image retreival survey of past technologies.:
+http://infolab.stanford.edu/~wangz/project/imsearch/review/JOUR/datta.pdf
+
